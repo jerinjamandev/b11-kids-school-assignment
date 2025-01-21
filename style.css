@@ -200,7 +200,9 @@ a {
 
 .our-stry-section {
     margin-top: 100px;
-    background: url(<path-to-image>) lightgray 0% 0% / 50px 50px repeat, linear-gradient(180deg, rgba(255, 255, 255, 0.00) 0%, rgba(254, 163, 1, 0.30) 100%);
+    background:
+        0% 0% / 100px 100px,
+        linear-gradient(0deg, rgba(239, 185, 92, 0.3) 0%, rgba(255, 255, 255, 0.30) 100%);
 }
 
 .our-stry-h1 {
@@ -221,8 +223,22 @@ a {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 15px;
+}
 
+.child-card-1 {
+    background-color: white;
+    height: 630.518px;
+    border-radius: 16px;
+    width: 540px;
+}
 
+.child-card-1>img {
+    width: 540px;
+}
+
+.child-card {
+    background-color: white;
+    width: 290.693px;
 }
 
 /* nav scetion responsive */
