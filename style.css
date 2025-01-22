@@ -210,9 +210,7 @@ a {
 
 .stry-main-section {
     margin-top: 100px;
-    background:
-        0% 0% / 100px 100px,
-        linear-gradient(0deg, rgba(239, 185, 92, 0.3) 0%, rgba(255, 255, 255, 0.30) 100%);
+    background-image: url(./assets/bg.png), linear-gradient(0deg, rgba(247, 167, 31, 0.404), rgba(231, 231, 231, 0.068));
 }
 
 .container-stry {
