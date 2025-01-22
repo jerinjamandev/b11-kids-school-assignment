@@ -378,6 +378,8 @@ a {
 
     .container-stry {
         grid-template-columns: repeat(2, 1fr);
+        justify-items: center;
+        column-gap: 0;
     }
 
 
