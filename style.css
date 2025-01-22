@@ -305,6 +305,28 @@ a {
     border-radius: 16px 16px 0px 0px;
 }
 
+.view-stry-btn {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.view-stry-btn>button {
+    background-color: black;
+    width: 150px;
+    margin: 60px 0px;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 12px;
+    border: none;
+}
+
+/* footer sectiion */
+.footer-sec {
+    background-color: #01ACFD;
+    color: white;
+}
+
 
 /* nav scetion responsive */
 
@@ -408,6 +430,12 @@ a {
         position: absolute;
         top: 90px;
         left: 10px;
+    }
+
+    .view-stry-btn>button {
+        margin-top: 2px;
+        margin-bottom: 40px;
+        font-weight: 700px;
     }
 
 }
