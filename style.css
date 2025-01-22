@@ -218,7 +218,7 @@ a {
     grid-template-columns: 2fr 1fr 1fr 1fr;
     grid-template-rows: repeat(2, auto);
     gap: 16px;
-    /* max-width: 1200px; */
+    max-width: 1200px;
     margin: 40px auto;
     padding: 16px;
 }
@@ -229,6 +229,7 @@ a {
     background-color: white;
     border-radius: 16px;
     width: 540.27px;
+    position: relative;
 }
 
 .large-card>h2 {
@@ -256,13 +257,27 @@ a {
     position: relative;
 }
 
+.main-stry-btn {
+    position: absolute;
+    top: 314px;
+    left: 30px;
+}
+
+.main-stry-btn>button {
+    border-radius: 47.934px;
+    background: #3CD8E8;
+    padding: 10px 20px;
+    color: white;
+    border: none;
+}
+
 .btn-possition {
     position: absolute;
     top: 155px;
     left: 30px;
 }
 
-.btn-possition>button {
+.btn-stry-clr-1 {
     border-radius: 47.934px;
     background: #95B226;
     padding: 10px 20px;
@@ -357,6 +372,40 @@ a {
 
     .standard-btn-cntr {
         display: none;
+    }
+
+    /* our stry */
+
+    .container-stry {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+
+    .large-card {
+        display: none;
+    }
+
+    .small-card {
+        width: 163px;
+    }
+
+    .small-card>img {
+        width: 163px;
+    }
+
+    .btn-possition>button {
+        font-size: 10px;
+
+    }
+
+    .small-card {
+        position: relative;
+    }
+
+    .btn-possition {
+        position: absolute;
+        top: 90px;
+        left: 10px;
     }
 
 }
